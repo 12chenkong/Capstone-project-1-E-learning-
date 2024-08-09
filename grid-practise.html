@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homepage</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&display=swap" rel="stylesheet">
+    <style>
+    *{
+      padding: 0;
+      margin: 0;
+      text-decoration: none;
+    }
+    img{
+      width:100%;
+      margin-bottom: 20px;
+      height: auto;
+      object-fit:cover;
+      border-radius: 10px;
+    }
+   article{
+    /* width: 300px; */
+    background-color: #272727;
+    padding-bottom: 20px;
+    border-radius: 10px;
+   
+   } 
+
+    a:hover{
+    box-shadow: 0 5px 10px #9288F8;
+    transition: box-shadow 0.3s ease-out;
+    
+   } 
+   
+   h2{
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Koh Santepheap", serif;
+    font-weight:bolder;
+    font-style: normal;
+   }
+   .title{
+    text-align: left;
+    font-size: 2rem;
+    padding: 0 2rem;
+    color:#bbb ;
+    font-family: "Koh Santepheap", serif;
+    font-weight: 900px;
+    font-style: normal;
+    margin-bottom: 1rem;
+    margin-top: 10px;
+   
+    /* width: 50%px; */
+    }
+    body{
+      background-color: #272727;
+    }
+   
+   .container{
+    display: flex;
+    width: 300px;
+    gap: 16px;
+    padding-left: 20px;
+   
+    
+   }
+   .html,.css{
+    font-size:1rem;
+    font-weight: 900;
+    background-color: hsla(0, 0%, 100%, .1);
+    padding: 0px 20px 0px 20px;
+    border-radius: 10px;
+     font-family: "Poppins", sans-serif;
+    font-weight: 500;
+      font-style: normal;
+     color: #79bcff;
+   }
+   .course_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(390px,1fr));
+    gap: 40px;
+    padding-left: 190px;
+     padding-right: 190px;
+     margin-top: 4rem;
+    
+    
+   }
+   .course_choice{
+    text-align: center;
+    
+   }
+   @media (max-width:892px){
+   .course_choice h3{
+    font-size: 1.5rem;
+     font-family: "Koh Santepheap", serif;
+    font-weight: 900px;
+    color: #6cff91;
+   }
+   .course_choice h1{
+      font-family: "Poppins", sans-serif;
+      font-weight: bold;
+      font-size: 3rem;
+      color:#6cff91 ;
+      letter-spacing: 2px;
+   }
+   }
+
+   h1{
+      font-family: "Poppins", sans-serif;
+      font-weight: bold;
+      font-size: 4rem;
+      color:#6cff91 ;
+      letter-spacing: 2px;
+   }
+
+   h3{
+    font-size: 2.5rem;
+     font-family: "Koh Santepheap", serif;
+    font-weight: 900px;
+    color: #6cff91;
+
+   }
+   .header{
+    text-align: center;
+   }
+   .subheading{
+    color: white;
+    font-size: 2.3rem;
+     font-family: "Koh Santepheap", serif;
+    font-weight: 800px;
+   }
+   @media(max-width:892px){
+    .subheading{
+    color: white;
+    font-size: 1.3rem;
+     font-family: "Koh Santepheap", serif;
+    font-weight: 800px;
+   }
+   }
+   .head{
+    font-size: 10rem;
+     font-family: "Konkhmer Sleokchher", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 80px;
+      
+   }
+
+   @media(max-width:990px){
+    .head{
+    font-size: 6rem;
+    font-family: "Konkhmer Sleokchher", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 80px;
+
+    }
+
+   }
+   span{
+
+    color: rgb(249 38 174);
+
+   }
+   hr{
+    max-width: 200px;
+    display: block;
+    height: 5px;
+    margin: 7rem auto;
+    border-radius: 100px;
+    background: linear-gradient(190deg,#6cff91, rgb(249 38 174));
+   }
+   .foot{
+    text-align: center;
+    margin-bottom:2rem;
+   }
+   .foot p{
+    font-size: 0.5rem;
+    color: #6cff91;
+      font-family: "Konkhmer Sleokchher", system-ui;
+    font-weight: 200;
+    font-style: normal;
+   }
+   /* navbar styles here */
+  .logo{
+    color: white;
+    font-size: 3rem;
+    font-family: "Poppins";
+    margin-left: 10%;
+    color: #6cff91;
+    font-weight: bold;
+  } 
+  @media(max-width:892px){
+    .logo{
+      display: none;
+    }
+  }
+  .bar_container .nav_item{
+    color: white;
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: 2rem;
+    margin-right: 2rem;
+    color: #6cff91;
+  }
+ 
+  .bar_container .nav_item:hover{
+    color: rgb(249 38 174);
+    padding: 10px;
+    border-radius: 20px;
+    transition: 0.2s ease-in;
+     
+
+  
+  }
+  nav{
+    display: flex;
+    justify-content: center;
+    justify-content:space-between;
+    margin: 40px;
+    
+    /* gap: 20px; */
+  }
+  .bar_container{
+    margin-right: 10%;
+  }
+   @media(max-width:892px){
+    .bar_container{
+      margin-left: 22%;
+    }
+  }
+  </style>
+</head>
+<body>
+  <!--navbar goes here-->
+  <nav>
+    <a class="logo" href="">ដេករៀន</a>
+    <div class="bar_container">
+      <a  class="nav_item"  href="#">វគ្គសិក្សា</a>
+      <a class="nav_item"  href="./registor.html">ចុះឈ្មោះ</a>
+      <a class="nav_item"  href="#">អំពីខ្ងុំ</a>
+    </div>
+  </nav>
+
+  <div class="header">
+    <h1 class="head">
+     <span>ដេករៀន</span> ​ ក៏ចេះ 
+    </h1>
+    <p class="subheading">"មនុស្សដែលមិនដែលធ្វើខុស មិនដែលសាកល្បងអ្វីថ្មីឡើយ"។</p>
+   
+  </div>
+
+   <hr>
+  <div​ class="course_choice">
+    <h1>ALL Courses</h1>
+    <h3>ជ្រើសរើសវគ្គសិក្សាដែលអ្នកពេញចិត្ត</h3>
+  </div​>
+
+  <div class="course_container">
+    <a href="./prices.html">
+    <article>
+      <img src="./images/htmlcss.webp" alt="logo">
+      <h2>HTML & CSS</h2>
+      <p class="title">សាងសង់រូបរាង website ជាមួយនឹងភាសា HTML CSS ជាមុនសិន</p>
+      <div class="container">
+        <p class="html"># html</p>
+        <p class="css"># css</p>
+      </div>
+    </article>
+  </a>
+
+  <!-- second card -->
+
+   <a href="./prices.html">
+    <article>
+      <img src="./images/htmlcss.webp">
+      <h2>Javascript</h2>
+      <p class="title">រៀន vae 3 ក្នុងការ​បង្កើតវេបសាយដែលមាន feature ឡូយ ​</p>
+      <div class="container">
+        <p class="html"># javascript</p>
+        <p class="css"># html</p>
+      </div>
+    </article>
+  </a>
+
+  <!-- third card -->
+
+   <a href="./prices.html">
+    <article>
+      <img src="./images/htmlcss.webp" alt="logo">
+      <h2>HTML & CSS</h2>
+      <p class="title">ចាប់ផ្ដើមរៀន backed ជាមួយ java spring ព្រមទាំងរៀន Microservice </p>
+      <div class="container">
+        <p class="html"># after  effect</p>
+        <p class="css"># css</p>
+      </div>
+    </article>
+  </a>
+
+
+  <a href="./prices.html">
+    <article>
+      <img src="./images/htmlcss.webp" alt="logo">
+      <h2>HTML & CSS</h2>
+      <p class="title">សាងសង់រូបរាង website ជាមួយនឹងភាសា HTML CSS ជាមុនសិន</p>
+      <div class="container">
+        <p class="html"># reactjs</p>
+        <p class="css"># javascript</p>
+      </div>
+    </article>
+  </a>
+
+  <a href="./prices.html">
+    <article>
+      <img src="./images/htmlcss.webp" alt="logo">
+      <h2>HTML & CSS</h2>
+      <p class="title">សាងសង់រូបរាង website ជាមួយនឹងភាសា HTML CSS ជាមុនសិន</p>
+      <div class="container">
+        <p class="html"># html</p>
+        <p class="css"># css</p>
+      </div>
+    </article>
+  </a>
+
+  <a href="./prices.html">
+    <article>
+      <img src="./images/htmlcss.webp" alt="logo">
+      <h2>HTML & CSS</h2>
+      <p class="title">សាងសង់រូបរាង website ជាមួយនឹងភាសា HTML CSS ជាមុនសិន</p>
+      <div class="container">
+        <p class="html"># tailwind</p>
+        <p class="css"># css</p>
+      </div>
+    </article>
+  </a>
+
+  <a href="./prices.html">
+    <article>
+      <img src="./images/htmlcss.webp" alt="logo">
+      <h2>Javascript</h2>
+      <p class="title">Programming language សម្រាប់​​ web development</p>
+      <div class="container">
+        <p class="html"># javascript</p>
+        <p class="css"># html</p>
+      </div>
+    </article>
+  </a>
+
+  <a href="./prices.html">
+    <article>
+      <img src="./images/htmlcss.webp" alt="logo">
+      <h2>Javascript</h2>
+      <p class="title">Programming language សម្រាប់​​ web development</p>
+      <div class="container">
+        <p class="html"># javascript</p>
+        <p class="css"># html</p>
+      </div>
+    </article>
+  </a>
+  </div>
+  <hr>
+
+  <footer class="foot">
+    <p> រក្សាសិទ្ធ ២០២៤</p>
+    <p>រក្សាគ្រប់យ៉ាងដោយ កង ចាន់</p>
+  </footer>
+ 
+</body>
+</html>
